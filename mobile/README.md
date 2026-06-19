@@ -651,4 +651,4 @@ When adding new features:
 
 ## License
 
-This project is proprietary software owned by Himalayan CodeWorks.
+This project is developed as part of my Final Year Project.
