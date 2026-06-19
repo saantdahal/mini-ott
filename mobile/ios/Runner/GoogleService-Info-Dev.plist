@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>71223241590-5hrfn00kmnteggm49l03q65ip0apvinl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.71223241590-5hrfn00kmnteggm49l03q65ip0apvinl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>71223241590-40167mu37g2kucg9kb8l33rgkhk5gmbp.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDU4ltrex9nGkoiz9EekqYDwHm_8y4C4po</string>
+	<key>GCM_SENDER_ID</key>
+	<string>71223241590</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.himalayancodeworks.miniott.dev</string>
+	<key>PROJECT_ID</key>
+	<string>dms-tv</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dms-tv.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:71223241590:ios:a6b78601e7389ea184a857</string>
+</dict>
+</plist>

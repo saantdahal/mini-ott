@@ -1,0 +1,1 @@
+enum SessionStatus { authenticated, unauthenticated }

@@ -1,0 +1,38 @@
+services:
+  backend:
+    build: .
+
+    container_name: miniott-backend
+
+    init: true
+
+    ports:
+      - "8080:8080"
+
+    env_file:
+      - .env
+
+    environment:
+      REDIS_URL: redis://redis:6379
+
+    depends_on:
+      redis:
+        condition: service_healthy
+
+    restart: always
+
+  redis:
+    image: redis:7-alpine
+
+    container_name: miniott-redis
+
+    ports:
+      - "6467:6379"
+
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+    restart: always

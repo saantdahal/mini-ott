@@ -1,0 +1,16 @@
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  web:
+    generate: true
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48
+  macos:
+    generate: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+# dart run flutter_launcher_icons -f flutter_launcher_icons-dev.yaml

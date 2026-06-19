@@ -1,0 +1,2 @@
+GET http://localhost:8080/api/wallet/get-coins
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjljNTNjNzIxLTJiMTYtNGI0Ny1iN2Y3LTg3MTY2MjRkODhhZiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NDkzMzQ5OCwiZXhwIjoxNzc0OTM0Mzk4fQ.ItenHkjX_tJZNkVRhmb_VphZzgvba8BdZtCQqcFAcGA

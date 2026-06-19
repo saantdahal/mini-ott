@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirrors AppColors.dsmoViolet (Color(0xFFA855F7)). Used as the
+         background layer of the adaptive icons for home-screen quick
+         actions. -->
+    <color name="shortcut_brand_primary">#FFA855F7</color>
+</resources>

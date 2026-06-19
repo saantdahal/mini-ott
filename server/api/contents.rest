@@ -1,0 +1,95 @@
+@baseUrl = http://localhost:8080
+@contentId = 0e730900-aec2-4e2a-a104-655b23a5707c
+@seasonId = 3a8826b9-7b13-4937-aebe-c21d8ab94bde
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI4NzRhM2Y4LWY2ZGUtNGFiZS1hYWJmLWE5ODU1MWUzYzgwOSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NzE5ODQ4NSwiZXhwIjoxNzc3MTk5Mzg1fQ.K_FlHavlI78vt-ryDvj3aKwlb1y1-d-Xc_ALJGvM4WM
+
+### Get content (with seasons)
+GET {{baseUrl}}/api/content/contents/{{contentId}}
+
+### Get season (with episodes)
+GET {{baseUrl}}/api/content/seasons/{{seasonId}}
+
+### Create episode 1
+POST {{baseUrl}}/api/content/contents/{{contentId}}/episodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "season_id": "{{seasonId}}",
+  "episode_number": 1,
+  "title": "Episode 1 - Pilot",
+  "description": "The journey begins.",
+  "short_description": "Pilot episode.",
+  "duration_seconds": 2400,
+  "access_type": "free",
+  "required_coins": 0,
+  "status": "draft"
+}
+
+### Create episode 2
+POST {{baseUrl}}/api/content/contents/{{contentId}}/episodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "season_id": "{{seasonId}}",
+  "episode_number": 2,
+  "title": "Episode 2 - Rising Tides",
+  "description": "Stakes are raised as new alliances form.",
+  "short_description": "Rising tides.",
+  "duration_seconds": 2520,
+  "access_type": "free",
+  "required_coins": 0,
+  "status": "draft"
+}
+
+### Create episode 3
+POST {{baseUrl}}/api/content/contents/{{contentId}}/episodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "season_id": "{{seasonId}}",
+  "episode_number": 3,
+  "title": "Episode 3 - The Reckoning",
+  "description": "Old secrets resurface.",
+  "short_description": "Secrets resurface.",
+  "duration_seconds": 2580,
+  "access_type": "premium",
+  "required_coins": 10,
+  "status": "draft"
+}
+
+### Create episode 4
+POST {{baseUrl}}/api/content/contents/{{contentId}}/episodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "season_id": "{{seasonId}}",
+  "episode_number": 4,
+  "title": "Episode 4 - Crossroads",
+  "description": "Choices must be made.",
+  "short_description": "Crossroads.",
+  "duration_seconds": 2460,
+  "access_type": "premium",
+  "required_coins": 10,
+  "status": "draft"
+}
+
+### Create episode 5
+POST {{baseUrl}}/api/content/contents/{{contentId}}/episodes
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "season_id": "{{seasonId}}",
+  "episode_number": 5,
+  "title": "Episode 5 - Finale",
+  "description": "All paths converge.",
+  "short_description": "Season finale.",
+  "duration_seconds": 2700,
+  "access_type": "premium",
+  "required_coins": 15,
+  "status": "draft"
+}

@@ -1,0 +1,10 @@
+
+
+POST http://localhost:8080/api/esewa/initialize-payment
+Authorization: Bearer <token>
+Content-Type: application/json
+
+{
+  "packageId": "8f593877-db9a-4eac-9771-176882c45760",
+  "price": 299
+}

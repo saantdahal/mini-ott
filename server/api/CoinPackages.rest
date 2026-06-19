@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/coin-packages/create
+Content-Type: application/json
+
+{
+    "title": "Starter Pack",
+    "description": "Good for trying out rentals.",
+    "coins": 50,
+    "bonus_coins": 0,
+    "price_amount": "299.00",
+    "currency": "NPR",
+    "is_popular": false,
+    "status": "active",
+    "sort_order":3
+}
+
+###
+
+GET http://localhost:8080/api/coin-packages/all

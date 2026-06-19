@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "71223241590",
+    "project_id": "dms-tv",
+    "storage_bucket": "dms-tv.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71223241590:android:7e27e05413d240f384a857",
+        "android_client_info": {
+          "package_name": "com.himalayancodeworks.miniott"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw4U89U1mWe4gnFyvdghyFM9U6Doiu43s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
