@@ -6,7 +6,7 @@ A comprehensive Over-The-Top (OTT) streaming platform with content management, i
 
 ## Project Overview
 
-The Mini OTT Platform is an end-to-end entertainment ecosystem developed for **Bytecode Developers Pvt. Ltd.** It providess:
+The Mini OTT Platform is an end-to-end entertainment ecosystem developed as my **Final Year Project**. It provides:
 
 - **Admin Dashboard:** Professional administrative console for managing video content, monetization (coin system), real-time interactive voting, user analytics, and anti-piracy measures
 - **Mobile Application:** Feature-rich Flutter app for streaming content with clean architecture and multi-flavor support
@@ -270,7 +270,7 @@ For questions or issues:
 
 ## License
 
-This project is developed for **Bytecode Developers Pvt. Ltd. By Himalayan CodeWorks**
+This project is developed as part of my **Final Year Project**.
 
 ---
 
