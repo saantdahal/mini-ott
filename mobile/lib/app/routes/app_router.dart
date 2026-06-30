@@ -8,7 +8,6 @@ import 'package:miniott/features/profile/presentation/screens/profile_screen.dar
 import 'package:miniott/features/profile/presentation/screens/profile_vouchers_screen.dart';
 import 'package:miniott/features/profile/presentation/screens/watch_history_screen.dart';
 import 'package:miniott/features/profile/presentation/screens/watch_later_screen.dart';
-
 import '../../features/auth/domain/entities/otp_purpose.dart';
 import '../../features/auth/presentation/providers/auth_providers.dart';
 import '../../features/auth/presentation/screens/change_password.dart';
@@ -68,14 +67,12 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       return null;
     },
     routes: [
-      // Splash route (no shell)
       GoRoute(
         path: AppRoutes.splash,
         name: 'splash',
         builder: (context, state) => const SplashScreen(),
       ),
 
-      // Auth routes (no shell)
       GoRoute(
         path: AppRoutes.login,
         name: 'login',
@@ -118,7 +115,6 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         builder: (context, state) => const ChangePasswordScreen(),
       ),
 
-      // Main app routes with shell navigation
       ShellRoute(
         navigatorKey: shellNavigatorKey,
         builder: (context, state, child) => AppNavigationLayout(child: child),
